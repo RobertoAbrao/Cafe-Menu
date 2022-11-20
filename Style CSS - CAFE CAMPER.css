@@ -1,0 +1,92 @@
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* ISSO SERVE PARA MUDAR A FONTE DAS PALAVRAS */
+}
+
+h1 {
+    font-size: 40px; /* TAMANHO DA FONTE */
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.fundação {
+    font-style: italic;    
+}
+
+body {
+   /* background-color: burlywood; IRIA PRECISAR REMOVER, MAS VOU DEIXAR COMO EXEMPLO*/
+   background-image: url(https://reviewcafe.com.br/wp-content/uploads/2020/09/tipos-degraos-de-cafe-1024x683.jpg);
+   font-family: sans-serif;
+   padding: 20px;
+}
+
+/* COLOQUEI O DIV(HATML) NA CLASSE .MENU - O COMANDO "DIV" LOGO APÓS DO <BODY> PARA FUNCIONAR NA PAGINA INTEIRA */
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px; /* ISSO SERVE PARA DEIXAR O "MENU" COM O TAMANHO DESEJADO */
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.item p {
+    display: inline-block; /* PRECISA DEIXAR OS ELEMENTOS "P" NA MESMA LINHA PARA FUNCIONAR MELHOR - DEIXA A LINHA DE COMANDO NA MESMA LINHA */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: brown;
+}
